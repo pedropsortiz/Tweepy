@@ -25,7 +25,7 @@ def tweetImg():
 
 #Respondendo um tweet com texto
 def tweetReply():
-    API.update_status(status = texto, in_reply_to_status_id = replyId, auto_populate_reply_metadata = True)
+    API.update_status(status = texto, in_reply_to_status_id = replyId)
 
 #Respondendo um tweet com imagem
 def tweetReplyImg():
